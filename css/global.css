@@ -6,6 +6,7 @@
 
 .headig-small{
     font-size: 1.25rem;
+
 }
 
 .headig-medium{
@@ -18,8 +19,8 @@
 
 /* Colors */
 
-.bg-dark-blue{
-    background: indianred;
+.bg-indianred{
+    background: rgb(208, 128, 128);
 }
 
 .bg-light-blue{
