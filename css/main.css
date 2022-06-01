@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-family: "Tiro Devanagari Sanskrit";
+}
+
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 0.75rem ;
+    height: 70px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+#navbar ul li a {
+    padding: 0.75rem;
+}
+#navbar ul li a:hover{
+    background: rosybrown;
+    border-radius: 4px;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: solid grey;
+}
+#home img {
+   max-width: 300px; 
+   height: auto;
+   border-radius: 100%;
+}
+
+#home .name {
+    text-align: center;
+}
+
+#home .name h2 {
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+}
